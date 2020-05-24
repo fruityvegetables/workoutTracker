@@ -4,9 +4,7 @@ const Schema = mongoose.Schema;
 //const opts = { toJSON: { virtuals: true } };
 
 const WorkoutSchema = new Schema({
-    day: {
-        type: Date
-    },
+    day: Date,
     exercises: [{
         type: {
             type: String,
